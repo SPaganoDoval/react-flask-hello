@@ -1,0 +1,77 @@
+.register-section {
+    font-family: sans-serif;
+    background: url("https://picsum.photos/2500/1667?image=353") no-repeat center center fixed;
+    background-size: cover;
+    background-position-y: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .register-box {
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+  
+  .register-box h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 13px 0;
+    text-align: center;
+  }
+  
+  .textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0 30px 0;
+    border-bottom: solid 2px #C9BF3B;
+  }
+  
+  
+  
+  .textbox i {
+    margin-top: 8px;
+    float: left;
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    color: white;
+  }
+  
+  .rg-btn {
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 2px solid #C9BF3B;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    background-color: #C9BF3B;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: row;
+  
+  }
